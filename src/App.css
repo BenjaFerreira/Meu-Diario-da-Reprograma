@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap);
+*{
+  font-family: 'Source Serif Pro', serif;
+}
+header {
+ background-color: #674582;
+ padding: 100px;
+ color:white;
+ text-align: center;
+}
+
+.navbar {
+  display:flex;
+  justify-content: center;
+  text-align:center;
+}
+
+.imagem{
+  margin:20px;
+  width:150px;
+  text-align:center;
+
+}
+.titulo{
+  margin:70px;
+  font-size:3vw;
+  text-align:center;
+  color:#7e4595;
+}
+.resumo {
+  text-align:center;
+  font-size: 2vw;
+  
+}
+section {
+  padding:10px 240px;
+}
+.textos {
+  text-align:center;
+  padding:10px 400px;
+  font-size:2vw;
+}
+.container  {
+  text-align:center;
+  
+}
+.gifs{
+  width:60vh;
+}
+footer {
+  background-color: #674582;
+  padding: 30px;
+  color:white;
+  text-align: center;
+  font-size: 10px;
+ }
+ @media screen and (max-width: 768px){
+  .textos{
+    padding:0;
+    font-size:15px;
+  }
+  .resumo{
+    display:inline-block;
+ 
+    padding:0;
+  }
+  section {
+    padding:10px;
+  
+  }
+ }
